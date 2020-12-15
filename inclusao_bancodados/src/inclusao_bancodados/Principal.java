@@ -5,8 +5,8 @@ public class Principal {
 	public static void main(String[] args) {
 		
 		Pessoa  p1 = new Pessoa(1,"Gabriel",22);
-		Pessoadao pdao = new Pessoadao();
-		pdao.salvar(p1);
+		Inserir insert = new Inserir();
+		insert.salvar(p1);
 	}
 }
 
