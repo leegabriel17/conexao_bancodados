@@ -6,7 +6,7 @@ import java.sql.SQLException;
 
 public class Update {
 	public void alterar(Pessoa pessoa) {
-		String sql = "update pessoa set nome = ? idade = ? where (id_pessoa) = ?";//altera o nome a idade do id_pessoa selecionada
+		String sql = "update pessoa set nome = ?, idade = ? where id_pessoa = ?";//altera o nome a idade do id_pessoa selecionada
 		Connection con = null;
 		PreparedStatement pStat = null;		
 		try {

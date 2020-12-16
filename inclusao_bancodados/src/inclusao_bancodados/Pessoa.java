@@ -8,6 +8,11 @@ public class Pessoa {
 	
 	
 	
+	@Override
+	public String toString() {
+		return "Pessoa [id_pessoa=" + id_pessoa + ", nome=" + nome + ", idade=" + idade + "]";
+	}
+
 	public Pessoa(Integer id_pessoa, String nome, int idade) {
 		super();
 		this.id_pessoa = id_pessoa;
